@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;   
+    background-color: #332B37; 
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.card-container{
+    border-radius: 10px;
+    
+    background-color: #231D24;
+    margin: 1em auto;
+    width: 350px;
+    padding: 1em 1em ;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.card-container img{
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.health-bar{
+    width: 100%;
+    height: 9px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    
+}
+.health{
+    height: 100%;
+    border-radius: 10px;
+    
+}
+.no-danger-level{
+    background-color: green;
+}
+.low-danger-level{
+    background-color: rgb(248, 248, 24);
+    
+}
+.high-danger-level{
+    background-color: rgb(248, 24, 24);
+    
+}
+.dice-area{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.dice-area p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    font-size: 1.35em;
+    font-weight: bolder;
+    background-color: rgb(24, 24, 72);
+}
+#attack-btn{
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+#attack-btn:active{
+    transform: scale(0.9);
+}
+
+.body-endGame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
